@@ -79,6 +79,7 @@ window.___gcfg = {
 </script>
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
 <link href="css/master.css" rel="stylesheet" type='text/css'>
+<script src="http://agar.io/lz4.js"></script>
 <script src="js/master.js"></script>
 <script src="environment.js?v=72"></script>
 <script src="i18n.js?v=72"></script>

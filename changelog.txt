@@ -1,0 +1,109 @@
+Support: support [at] agar.io
+Business inquiries: biz [at] agar.io
+Please refrain from sending emails that aren't necessary, I receive a lot of emails already (seriously, a lot). Feature request should go to reddit.com/r/agario.
+I apologize if I don't reply to your email, be assured that I have read it, but I don't have time to reply to all of them.
+
+== EXPERIMENTAL ==
+
+Experiments running:
+
+- Spawners which shoot out some food
+- Throwing mass at viruses will push them instead of making them split
+
+
+== CHANGELOG ==
+
+Experimental gamepad support added in http://agar.io?gamepad
+
+-- 
+
+A bug in the account system was reporting wrong levels, it has been fixed and your level should be reporting correctly.
+
+--
+
+Added account system and party game mode, which lets you invite friends to the same server as you are (for now, same rules as FFA).
+
+--
+
+We have moved those changes into a game mode called "Experimental".
+
+--
+
+Testing out some changes:
+
+- 5% of the viruses will be a little larger and a bit darker
+- There will be a "mother" cell in the middle of the map where 1/7 of the food will spawn from
+
+--
+
+Players can now spawn from ejected mass. Decreased efficiency of W to 80%.
+
+--
+
+Added Turkey region, it's still hosted in the same region as the other european servers, though.
+
+--
+
+For most countries it should now select your region automatically, if you'd like to change the region you were placed in, just open the settings menu.
+
+--
+
+Servers in China and East Asia are now temporarily hosted in Singapore, because of unavaliability of Linode servers in Japan. We hope to get this issue fixed soon.
+
+--
+
+We've been moving some servers around.
+
+So far, our experiences (no, we weren't paid to write any of this):
+- Linode: Great. They're pretty damn good, there's nothing else to say. Their support is excellent. We'd recommend them to anyone.
+- Black Lotus: Their support is the best and their servers are great. Kind of expensive but well worth the price.
+- AWS: Too expensive. Seriously, look elsewhere (hint: this list).
+- CloudFlare: Not really a server hoster but worth a mention: Their support isn't that good, but their service is, especially for their rates.
+
+--
+
+Added the "Teams" game mode. It's still being tweaked to prevent a team from snowballing too hard.
+
+--
+
+Added Spectator mode and improved performance.
+
+--
+
+Made big cells slighty faster. Fixed split range. Ejected mass now loses 10% of its mass (you lose X mass, but the ejected mass only has 0.9x mass).
+
+--
+
+Moved South America servers back to Atlanta.
+
+--
+
+I've moved the South America server to AWS in Brazil. However this might not be permanent as AWS is incredibly expensive.
+
+--
+
+I've added a South America server, but please notice that it's *not* hosted in South America at the moment. It's hosted in Atlanta. We haven't found a good server provider yet.
+
+--
+
+Added a China region, it's hosted in Tokyo though. It doesn't have many servers at the moment because linode does not have any servers available, hopefully we manage to grab more in the next few hours.
+
+--
+
+Added Russia and Oceania regions. Notice that Russian servers are actually hosted in London, and Oceania servers are hosted in Singapore.
+
+--
+
+Massively increased the size of the map.
+
+--
+
+Reverted game back to the state it was a few days ago. I feel like there's a better way to add features without unbalacing the game, so I'll try that out soon.
+
+There might be a Oceania server coming if there is interest. A South American server is planned but we're still trying to find a suitable host there.
+
+A party system is in the works.
+
+--
+
+Created changelog

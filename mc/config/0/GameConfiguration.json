@@ -1,0 +1,5183 @@
+{
+    "gameConfig": {
+        "externalSocialStories": [
+            {
+                "descriptionAndroidTag": "fb_levelup_description",
+                "descriptionTag": "fb_levelup_description",
+                "googleDescriptionTag": "tt_matchresults",
+                "icon": {
+                    "frameName": "Agar.io_fbshare.png",
+                    "plistFilename": "shareIcons.plist",
+                    "spriteFilename": "shareIcons.png"
+                },
+                "iconURL": "http://static2.miniclipcdn.com/mobile/agar/Agar.io_matchresults_fb_1200x630.png",
+                "id": "fb_matchresults",
+                "omniataShareContext": "match_results",
+                "subtitleTag": "fb_matchresults_subtitle",
+                "subtitleTagAndroid": "fb_matchresults_subtitle",
+                "titleTag": "fb_matchresults_title",
+                "twitterDescriptionAndroidTag": "tt_matchresults",
+                "twitterDescriptionTag": "tt_matchresults",
+                "twitterSubtitleTag": "tt_matchresults",
+                "twitterTitleTag": "fb_matchresults_title"
+            },
+            {
+                "descriptionAndroidTag": "fb_levelup_description",
+                "descriptionTag": "fb_levelup_description",
+                "googleDescriptionTag": "tt_levelup",
+                "icon": {
+                    "frameName": "Agar.io_levelup_fb.png",
+                    "plistFilename": "shareIcons.plist",
+                    "spriteFilename": "shareIcons.png"
+                },
+                "iconURL": "http://static2.miniclipcdn.com/mobile/agar/Agar.io_levelup_fb_1200x630.png",
+                "id": "fb_levelup",
+                "omniataShareContext": "level_up",
+                "subtitleTag": "fb_levelup_subtitle",
+                "subtitleTagAndroid": "fb_levelup_subtitle",
+                "titleTag": "fb_levelup_title",
+                "twitterDescriptionAndroidTag": "tt_levelup",
+                "twitterDescriptionTag": "tt_levelup",
+                "twitterSubtitleTag": "tt_levelup",
+                "twitterTitleTag": "fb_levelup_title"
+            },
+            {
+                "descriptionAndroidTag": "fb_skinpurchase_description",
+                "descriptionTag": "fb_skinpurchase_description",
+                "googleDescriptionTag": "tt_skinpurchase",
+                "icon": {
+                    "frameName": "Agar.io_fbshare.png",
+                    "plistFilename": "shareIcons.plist",
+                    "spriteFilename": "shareIcons.png"
+                },
+                "iconURL": "http://static2.miniclipcdn.com/mobile/agar/Agar.io_matchresults_fb_1200x630.png",
+                "id": "fb_skinpurchase",
+                "omniataShareContext": "skin_bought",
+                "subtitleTag": "fb_skinpurchase_subtitle",
+                "subtitleTagAndroid": "fb_skinpurchase_title",
+                "titleTag": "fb_skinpurchase_title",
+                "twitterDescriptionAndroidTag": "tt_skinpurchase",
+                "twitterDescriptionTag": "tt_skinpurchase",
+                "twitterSubtitleTag": "tt_skinpurchase",
+                "twitterTitleTag": "fb_skinpurchase_title"
+            },
+            {
+                "descriptionAndroidTag": "fb_skinunlock_description",
+                "descriptionTag": "fb_skinunlock_description",
+                "googleDescriptionTag": "tt_skinunlock",
+                "icon": {
+                    "frameName": "Agar.io_levelup_fb.png",
+                    "plistFilename": "shareIcons.plist",
+                    "spriteFilename": "shareIcons.png"
+                },
+                "iconURL": "http://static2.miniclipcdn.com/mobile/agar/Agar.io_levelup_fb_1200x630.png",
+                "id": "fb_skinunlock",
+                "omniataShareContext": "level_up_veteran",
+                "subtitleTag": "fb_skinunlock_subtitle",
+                "subtitleTagAndroid": "fb_skinunlock_subtitle",
+                "titleTag": "fb_skinunlock_title",
+                "twitterDescriptionAndroidTag": "tt_skinunlock",
+                "twitterDescriptionTag": "tt_skinunlock",
+                "twitterSubtitleTag": "tt_skinunlock",
+                "twitterTitleTag": "fb_skinunlock_title"
+            }
+        ],
+        "gamePlayBoosts": [
+            {
+                "duration": 3600,
+                "multiplier": 2,
+                "productId": "xp_boost_2x_1h",
+                "type": "xp"
+            },
+            {
+                "duration": 86400,
+                "multiplier": 2,
+                "productId": "xp_boost_2x_24h",
+                "type": "xp"
+            },
+            {
+                "duration": 3600,
+                "multiplier": 3,
+                "productId": "xp_boost_3x_1h",
+                "type": "xp"
+            },
+            {
+                "duration": 86400,
+                "multiplier": 3,
+                "productId": "xp_boost_3x_24h",
+                "type": "xp"
+            },
+            {
+                "duration": 3600,
+                "multiplier": 2,
+                "productId": "mass_boost_2x_1h",
+                "type": "mass"
+            },
+            {
+                "duration": 86400,
+                "multiplier": 2,
+                "productId": "mass_boost_2x_24h",
+                "type": "mass"
+            },
+            {
+                "duration": 3600,
+                "multiplier": 3,
+                "productId": "mass_boost_3x_1h",
+                "type": "mass"
+            },
+            {
+                "duration": 86400,
+                "multiplier": 3,
+                "productId": "mass_boost_3x_24h",
+                "type": "mass"
+            }
+        ],
+        "gamePlaySkins": [
+            {
+                "cellColor": "0xF5F5F500",
+                "gameplayId": 0,
+                "image": "grey_square.png",
+                "productId": "skin_empty",
+                "skinType": "default"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 1,
+                "image": "Banana.png",
+                "productId": "skin_banana",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 2,
+                "image": "Cookie.png",
+                "productId": "skin_cookie",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 3,
+                "image": "Jupiter.png",
+                "productId": "skin_jupiter",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 4,
+                "image": "Birdie.png",
+                "productId": "skin_birdie",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 5,
+                "image": "Mercury.png",
+                "productId": "skin_mercury",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 6,
+                "image": "Apple.png",
+                "productId": "skin_apple",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 7,
+                "image": "Good.png",
+                "productId": "skin_good",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 8,
+                "image": "Neptune.png",
+                "productId": "skin_neptune",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 9,
+                "image": "Blackhole.png",
+                "productId": "skin_blackhole",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 10,
+                "image": "Uranus.png",
+                "productId": "skin_uranus",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 11,
+                "image": "Starball.png",
+                "productId": "skin_starball",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 12,
+                "image": "Target.png",
+                "productId": "skin_target",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 13,
+                "image": "Galaxy.png",
+                "productId": "skin_galaxy",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 14,
+                "image": "Venus.png",
+                "productId": "skin_venus",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 15,
+                "image": "Breakfast.png",
+                "productId": "skin_breakfast",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 16,
+                "image": "Saturn.png",
+                "productId": "skin_saturn",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 17,
+                "image": "Pluto.png",
+                "productId": "skin_pluto",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 18,
+                "image": "Tiger_Pattern.png",
+                "productId": "skin_tigerpattern",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 19,
+                "image": "Hot_Dog.png",
+                "productId": "skin_hotdog",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 20,
+                "image": "Heart.png",
+                "productId": "skin_heart",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 21,
+                "image": "Mouse.png",
+                "productId": "skin_mouse",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 22,
+                "image": "Wolf.png",
+                "productId": "skin_wolf",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 23,
+                "image": "Goldfish.png",
+                "productId": "skin_goldfish",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 24,
+                "image": "pig.png",
+                "productId": "skin_pig",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 25,
+                "image": "Blueberry_Face.png",
+                "productId": "skin_blueberry",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 26,
+                "image": "Bomb.png",
+                "productId": "skin_bomb",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 27,
+                "image": "Bowling.png",
+                "productId": "skin_bowling",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 28,
+                "image": "Candy.png",
+                "productId": "skin_candy",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 29,
+                "image": "Frog.png",
+                "productId": "skin_frog",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 30,
+                "image": "Hamburguer.png",
+                "productId": "skin_hamburguer",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 31,
+                "image": "Nose.png",
+                "productId": "skin_nose",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 32,
+                "image": "Seal.png",
+                "productId": "skin_seal",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 33,
+                "image": "Panda.png",
+                "productId": "skin_panda",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 34,
+                "image": "Pizza.png",
+                "productId": "skin_pizza",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 35,
+                "image": "Snowman.png",
+                "productId": "skin_snowman",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 36,
+                "image": "Sun.png",
+                "productId": "skin_sun",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 37,
+                "image": "Baseball.png",
+                "productId": "skin_baseball",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 38,
+                "image": "Basketball.png",
+                "productId": "skin_basketball",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 39,
+                "image": "Bug.png",
+                "productId": "skin_bug",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 40,
+                "image": "Cloud.png",
+                "productId": "skin_cloud",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 41,
+                "image": "Muu.png",
+                "productId": "skin_muu",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 42,
+                "image": "Tomato_Face.png",
+                "productId": "skin_tomatoface",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 43,
+                "image": "Mushroom.png",
+                "productId": "skin_mushroom",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 44,
+                "image": "Donuts.png",
+                "productId": "skin_donuts",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 45,
+                "image": "Terrible.png",
+                "productId": "skin_terrible",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 46,
+                "image": "ghost.png",
+                "productId": "skin_ghost",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 47,
+                "image": "Apple_Face.png",
+                "productId": "skin_appleface",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 48,
+                "image": "Turtle.png",
+                "productId": "skin_turtle",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 49,
+                "image": "BroFist.png",
+                "productId": "skin_brofist",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 50,
+                "image": "Dog.png",
+                "productId": "skin_dog",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 51,
+                "image": "FootPrint.png",
+                "productId": "skin_footprint",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 52,
+                "image": "Pineapple_Face.png",
+                "productId": "skin_pineappleface",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 53,
+                "image": "Zebra_Pattern.png",
+                "productId": "skin_zebrapattern",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 54,
+                "image": "toon.png",
+                "productId": "skin_toon",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 55,
+                "image": "Octopus.png",
+                "productId": "skin_octopus",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 56,
+                "image": "Radar.png",
+                "productId": "skin_radar",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 57,
+                "image": "Eye.png",
+                "productId": "skin_eye",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 58,
+                "image": "Owl.png",
+                "productId": "skin_owl",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 59,
+                "image": "Virus.png",
+                "productId": "skin_virus",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 60,
+                "image": "smile.png",
+                "productId": "skin_smile",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 61,
+                "image": "Army.png",
+                "productId": "skin_army",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 62,
+                "image": "Cat.png",
+                "productId": "skin_cat",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 63,
+                "image": "Nuclear.png",
+                "productId": "skin_nuclear",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 64,
+                "image": "Toxic.png",
+                "productId": "skin_toxic",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 65,
+                "image": "Doggie.png",
+                "productId": "skin_doggie",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 66,
+                "image": "face.png",
+                "productId": "skin_face",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 67,
+                "image": "Willie.png",
+                "productId": "skin_willie",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 68,
+                "image": "Luchador.png",
+                "productId": "skin_luchador",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 69,
+                "image": "zombie.png",
+                "productId": "skin_zombie",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 70,
+                "image": "Bite.png",
+                "productId": "skin_bite",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 71,
+                "image": "Crazy.png",
+                "productId": "skin_crazy",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 72,
+                "image": "Hockey.png",
+                "productId": "skin_hockey",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 73,
+                "image": "Jar_Brain.png",
+                "productId": "skin_jarbrain",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 74,
+                "image": "Evil.png",
+                "productId": "skin_evil",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 75,
+                "image": "Pirate.png",
+                "productId": "skin_pirate",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 77,
+                "image": "evil_eye.png",
+                "productId": "skin_evileye",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 78,
+                "image": "Halloween.png",
+                "productId": "skin_halloween",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 79,
+                "image": "Monster.png",
+                "productId": "skin_monster",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 80,
+                "image": "Scarecrow.png",
+                "productId": "skin_scarecrow",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x83838300",
+                "gameplayId": 81,
+                "image": "Spy.png",
+                "productId": "skin_spy",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 82,
+                "image": "X-mas.png",
+                "productId": "skin_santa",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 83,
+                "image": "GingerBreadMan.png",
+                "productId": "skin_gingerbread",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 84,
+                "image": "Grinch.png",
+                "productId": "skin_grinch",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 85,
+                "image": "Fly.png",
+                "productId": "skin_fly",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 86,
+                "image": "Spider.png",
+                "productId": "skin_spider",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 87,
+                "image": "Wasp.png",
+                "productId": "skin_wasp",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0xAC087500",
+                "gameplayId": 88,
+                "image": "Lizard.png",
+                "productId": "skin_lizard",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x4E114E00",
+                "gameplayId": 89,
+                "image": "Bat.png",
+                "productId": "skin_bat",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 90,
+                "image": "Snake.png",
+                "productId": "skin_snake",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 91,
+                "image": "Fox.png",
+                "productId": "skin_fox",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 92,
+                "image": "Coyote.png",
+                "productId": "skin_coyote",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 93,
+                "image": "Hunter.png",
+                "productId": "skin_hunter",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 94,
+                "image": "Sumo.png",
+                "productId": "skin_sumo",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 95,
+                "image": "Bear.png",
+                "productId": "skin_bear",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 96,
+                "image": "Cougar.png",
+                "productId": "skin_cougar",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x00000000",
+                "gameplayId": 97,
+                "image": "Panther.png",
+                "productId": "skin_panther",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 98,
+                "image": "Lion.png",
+                "productId": "skin_lion",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 99,
+                "image": "Crocodile.png",
+                "productId": "skin_crocodile",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x002C6C00",
+                "gameplayId": 100,
+                "image": "Shark.png",
+                "productId": "skin_shark",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x65421700",
+                "gameplayId": 101,
+                "image": "Mammoth.png",
+                "productId": "skin_mammoth",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 102,
+                "image": "Raptor.png",
+                "productId": "skin_raptor",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x7c000100",
+                "gameplayId": 103,
+                "image": "T-Rex.png",
+                "productId": "skin_t_rex",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x004F0F00",
+                "gameplayId": 104,
+                "image": "Kraken.png",
+                "productId": "skin_kraken",
+                "skinType": "veteran"
+            },
+            {
+                "cellColor": "0x03508600",
+                "gameplayId": 105,
+                "image": "CupCake.png",
+                "productId": "skin_cupcake",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xb4230600",
+                "gameplayId": 106,
+                "image": "KissBoy.png",
+                "productId": "skin_kiss_boy",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0x067db400",
+                "gameplayId": 107,
+                "image": "KissGirl.png",
+                "productId": "skin_kiss_girl",
+                "skinType": "premium"
+            },
+            {
+                "cellColor": "0xa81edb00",
+                "gameplayId": 108,
+                "image": "Cupid.png",
+                "productId": "skin_cupid",
+                "skinType": "premium"
+            }
+        ],
+        "localizationSettings": [
+            {
+                "key": "localizationCacheEnabled",
+                "value": "YES"
+            },
+            {
+                "key": "defaultLanguage",
+                "value": "en"
+            }
+        ],
+        "shopBoostCategories": [
+            {
+                "description": "menu_shop_double_xp_info",
+                "image": "xpboost_2x_shop.png",
+                "position": 1,
+                "shopId": "xp_boost",
+                "spritesheet": "menusShopUI",
+                "title": "menu_shop_button_xp_double"
+            },
+            {
+                "description": "menu_shop_triple_xp_info",
+                "image": "xpboost_3x_shop.png",
+                "position": 2,
+                "shopId": "xp_boost",
+                "spritesheet": "menusShopUI",
+                "title": "menu_shop_button_xp_triple"
+            },
+            {
+                "description": "menu_shop_double_mass_info",
+                "image": "massboost_2x_shop.png",
+                "position": 1,
+                "shopId": "mass_boost",
+                "spritesheet": "menusShopUI",
+                "title": "menu_shop_mass_double"
+            },
+            {
+                "description": "menu_shop_triple_mass_info",
+                "image": "massboost_3x_shop.png",
+                "position": 2,
+                "shopId": "mass_boost",
+                "spritesheet": "menusShopUI",
+                "title": "menu_shop_mass_triple"
+            }
+        ],
+        "shopBoostItems": [
+            {
+                "bestDealSticker": "NO",
+                "categoryPosition": 1,
+                "categoryShopId": "xp_boost",
+                "position": 1,
+                "productIdToQuantify": "xp_boost_2x_1h",
+                "purchaseId": "1_xp_boost_2x_1h",
+                "title": "menu_shop_1_hour",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "YES",
+                "categoryPosition": 1,
+                "categoryShopId": "xp_boost",
+                "position": 2,
+                "productIdToQuantify": "xp_boost_2x_24h",
+                "purchaseId": "1_xp_boost_2x_24h",
+                "title": "menu_shop_24_hours",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "NO",
+                "categoryPosition": 2,
+                "categoryShopId": "xp_boost",
+                "position": 1,
+                "productIdToQuantify": "xp_boost_3x_1h",
+                "purchaseId": "1_xp_boost_3x_1h",
+                "title": "menu_shop_1_hour",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "YES",
+                "categoryPosition": 2,
+                "categoryShopId": "xp_boost",
+                "position": 2,
+                "productIdToQuantify": "xp_boost_3x_24h",
+                "purchaseId": "1_xp_boost_3x_24h",
+                "title": "menu_shop_24_hours",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "NO",
+                "categoryPosition": 1,
+                "categoryShopId": "mass_boost",
+                "position": 1,
+                "productIdToQuantify": "mass_boost_2x_1h",
+                "purchaseId": "1_mass_boost_2x_1h",
+                "title": "menu_shop_1_hour",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "YES",
+                "categoryPosition": 1,
+                "categoryShopId": "mass_boost",
+                "position": 2,
+                "productIdToQuantify": "mass_boost_2x_24h",
+                "purchaseId": "1_mass_boost_2x_24h",
+                "title": "menu_shop_24_hours",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "NO",
+                "categoryPosition": 2,
+                "categoryShopId": "mass_boost",
+                "position": 1,
+                "productIdToQuantify": "mass_boost_3x_1h",
+                "purchaseId": "1_mass_boost_3x_1h",
+                "title": "menu_shop_1_hour",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "bestDealSticker": "YES",
+                "categoryPosition": 2,
+                "categoryShopId": "mass_boost",
+                "position": 2,
+                "productIdToQuantify": "mass_boost_3x_24h",
+                "purchaseId": "1_mass_boost_3x_24h",
+                "title": "menu_shop_24_hours",
+                "type": "SOFT",
+                "visibility": "default"
+            }
+        ],
+        "shopCoins": [
+            {
+                "banner": "none",
+                "finalAmount": 1250,
+                "percentage": 25,
+                "preAmount": 1000,
+                "purchaseId": "com.miniclip.agar.io.coins_1250",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "none",
+                "finalAmount": 3250,
+                "percentage": 30,
+                "preAmount": 2500,
+                "purchaseId": "com.miniclip.agar.io.coins_3250",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "none",
+                "finalAmount": 7000,
+                "percentage": 40,
+                "preAmount": 5000,
+                "purchaseId": "com.miniclip.agar.io.coins_7000",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "none",
+                "finalAmount": 16000,
+                "percentage": 60,
+                "preAmount": 10000,
+                "purchaseId": "com.miniclip.agar.io.coins_16000",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "menu_shop_coins_popular",
+                "finalAmount": 50000,
+                "percentage": 65,
+                "preAmount": 30000,
+                "purchaseId": "com.miniclip.agar.io.coins_50000",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "menu_shop_coins_best",
+                "finalAmount": 125000,
+                "percentage": 80,
+                "preAmount": 70000,
+                "purchaseId": "com.miniclip.agar.io.coins_125000",
+                "type": "INAPP",
+                "visibility": "default"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 2500,
+                "percentage": 100,
+                "preAmount": 1250,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_1250",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 6500,
+                "percentage": 100,
+                "preAmount": 3250,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_3250",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 14000,
+                "percentage": 100,
+                "preAmount": 7000,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_7000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 32000,
+                "percentage": 100,
+                "preAmount": 16000,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_16000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 100000,
+                "percentage": 100,
+                "preAmount": 50000,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_50000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_2x",
+                "finalAmount": 250000,
+                "percentage": 100,
+                "preAmount": 125000,
+                "purchaseId": "com.miniclip.agar.io.promo1coins_125000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 3750,
+                "percentage": 200,
+                "preAmount": 1250,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_1250",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 9750,
+                "percentage": 200,
+                "preAmount": 3250,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_3250",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 21000,
+                "percentage": 200,
+                "preAmount": 7000,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_7000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 48000,
+                "percentage": 200,
+                "preAmount": 16000,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_16000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 150000,
+                "percentage": 200,
+                "preAmount": 50000,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_50000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "shop_coins_3x",
+                "finalAmount": 375000,
+                "percentage": 200,
+                "preAmount": 125000,
+                "purchaseId": "com.miniclip.agar.io.promo2coins_125000",
+                "type": "INAPP",
+                "visibility": "promotional"
+            },
+            {
+                "banner": "none",
+                "finalAmount": 16000,
+                "percentage": 60,
+                "preAmount": 10000,
+                "purchaseId": "com.miniclip.agar.io.coins_16000promo",
+                "type": "INAPP",
+                "visibility": "promotional"
+            }
+        ],
+        "shopPriceCurrency": [
+            {
+                "id": "USD"
+            },
+            {
+                "id": "AUD"
+            },
+            {
+                "id": "CAD"
+            },
+            {
+                "id": "CHF"
+            },
+            {
+                "id": "CNY"
+            },
+            {
+                "id": "EUR"
+            },
+            {
+                "id": "GBP"
+            },
+            {
+                "id": "JPY"
+            },
+            {
+                "id": "NZD"
+            },
+            {
+                "id": "RUB"
+            }
+        ],
+        "shopPriceMatrix": [
+            {
+                "AUD": 2.49,
+                "CAD": 2.29,
+                "CHF": 2,
+                "CNY": 12,
+                "EUR": 1.99,
+                "GBP": 1.49,
+                "JPY": 200,
+                "NZD": 2.59,
+                "RUB": 119,
+                "USD": 1.99,
+                "tier": 2
+            },
+            {
+                "AUD": 6.49,
+                "CAD": 5.79,
+                "CHF": 5,
+                "CNY": 30,
+                "EUR": 4.99,
+                "GBP": 3.99,
+                "JPY": 500,
+                "NZD": 6.49,
+                "RUB": 279,
+                "USD": 4.99,
+                "tier": 5
+            },
+            {
+                "AUD": 12.99,
+                "CAD": 11.99,
+                "CHF": 10,
+                "CNY": 68,
+                "EUR": 9.99,
+                "GBP": 7.99,
+                "JPY": 1000,
+                "NZD": 12.99,
+                "RUB": 599,
+                "USD": 9.99,
+                "tier": 10
+            },
+            {
+                "AUD": 24.99,
+                "CAD": 22.99,
+                "CHF": 20,
+                "CNY": 128,
+                "EUR": 19.99,
+                "GBP": 14.99,
+                "JPY": 2000,
+                "NZD": 24.99,
+                "RUB": 1190,
+                "USD": 19.99,
+                "tier": 20
+            },
+            {
+                "AUD": 64.99,
+                "CAD": 57.99,
+                "CHF": 48,
+                "CNY": 328,
+                "EUR": 49.99,
+                "GBP": 39.99,
+                "JPY": 5000,
+                "NZD": 64.99,
+                "RUB": 2990,
+                "USD": 49.99,
+                "tier": 50
+            },
+            {
+                "AUD": 129.99,
+                "CAD": 119.99,
+                "CHF": 100,
+                "CNY": 648,
+                "EUR": 99.99,
+                "GBP": 79.99,
+                "JPY": 9800,
+                "NZD": 124.99,
+                "RUB": 5990,
+                "USD": 99.99,
+                "tier": 60
+            }
+        ],
+        "shopSettings": [
+            {
+                "key": "fallbackCurrency",
+                "value": "USD"
+            },
+            {
+                "key": "inappValidationTimeOut",
+                "value": 30000
+            }
+        ],
+        "shopSkinTabs": [
+            {
+                "isNormalSort": "YES",
+                "tabDescription": "PREMIUM",
+                "tabName": "skins_premium_tag"
+            },
+            {
+                "isNormalSort": "NO",
+                "tabDescription": "VETERAN",
+                "tabName": "skins_vet_tag"
+            },
+            {
+                "isNormalSort": "YES",
+                "tabDescription": "XMAS",
+                "tabName": "skins_xmas_tag"
+            },
+            {
+                "isNormalSort": "YES",
+                "tabDescription": "VALENTINE",
+                "tabName": "skins_valentine_tag"
+            },
+            {
+                "isNormalSort": "NO",
+                "tabDescription": "OWNED",
+                "tabName": "skins_owned_tag"
+            }
+        ],
+        "shopSkins": [
+            {
+                "image": "Banana",
+                "originId": "1_skin_banana",
+                "productIdToQuantify": "skin_banana",
+                "tab": "PREMIUM",
+                "title": "Banana",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Cookie",
+                "originId": "1_skin_cookie",
+                "productIdToQuantify": "skin_cookie",
+                "tab": "PREMIUM",
+                "title": "Cookie",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Jupiter",
+                "originId": "1_skin_jupiter",
+                "productIdToQuantify": "skin_jupiter",
+                "tab": "PREMIUM",
+                "title": "Jupiter",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Birdie",
+                "originId": "1_skin_birdie",
+                "productIdToQuantify": "skin_birdie",
+                "tab": "PREMIUM",
+                "title": "Birdie",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Mercury",
+                "originId": "1_skin_mercury",
+                "productIdToQuantify": "skin_mercury",
+                "tab": "PREMIUM",
+                "title": "Mercury",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Apple",
+                "originId": "1_skin_apple",
+                "productIdToQuantify": "skin_apple",
+                "tab": "PREMIUM",
+                "title": "Apple",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Good",
+                "originId": "1_skin_good",
+                "productIdToQuantify": "skin_good",
+                "tab": "PREMIUM",
+                "title": "Halo",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Neptune",
+                "originId": "1_skin_neptune",
+                "productIdToQuantify": "skin_neptune",
+                "tab": "PREMIUM",
+                "title": "Neptune",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Blackhole",
+                "originId": "1_skin_blackhole",
+                "productIdToQuantify": "skin_blackhole",
+                "tab": "PREMIUM",
+                "title": "Black Hole",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Uranus",
+                "originId": "1_skin_uranus",
+                "productIdToQuantify": "skin_uranus",
+                "tab": "PREMIUM",
+                "title": "Uranus",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Starball",
+                "originId": "1_skin_starball",
+                "productIdToQuantify": "skin_starball",
+                "tab": "PREMIUM",
+                "title": "Star Ball",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Target",
+                "originId": "1_skin_target",
+                "productIdToQuantify": "skin_target",
+                "tab": "PREMIUM",
+                "title": "Target",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Galaxy",
+                "originId": "1_skin_galaxy",
+                "productIdToQuantify": "skin_galaxy",
+                "tab": "PREMIUM",
+                "title": "Galaxy",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Venus",
+                "originId": "1_skin_venus",
+                "productIdToQuantify": "skin_venus",
+                "tab": "PREMIUM",
+                "title": "Venus",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Breakfast",
+                "originId": "1_skin_breakfast",
+                "productIdToQuantify": "skin_breakfast",
+                "tab": "PREMIUM",
+                "title": "Breakfast",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Saturn",
+                "originId": "1_skin_saturn",
+                "productIdToQuantify": "skin_saturn",
+                "tab": "PREMIUM",
+                "title": "Saturn",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Pluto",
+                "originId": "1_skin_pluto",
+                "productIdToQuantify": "skin_pluto",
+                "tab": "PREMIUM",
+                "title": "Pluto",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Tiger_Pattern",
+                "originId": "1_skin_tigerpattern",
+                "productIdToQuantify": "skin_tigerpattern",
+                "tab": "PREMIUM",
+                "title": "Tiger",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Hot_Dog",
+                "originId": "1_skin_hotdog",
+                "productIdToQuantify": "skin_hotdog",
+                "tab": "PREMIUM",
+                "title": "Hot Dog",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Heart",
+                "originId": "1_skin_heart",
+                "productIdToQuantify": "skin_heart",
+                "tab": "PREMIUM",
+                "title": "Heart",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Mouse",
+                "originId": "1_skin_mouse",
+                "productIdToQuantify": "skin_mouse",
+                "tab": "PREMIUM",
+                "title": "Mouse",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Wolf",
+                "originId": "1_skin_wolf",
+                "productIdToQuantify": "skin_wolf",
+                "tab": "PREMIUM",
+                "title": "Wolf",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Goldfish",
+                "originId": "1_skin_goldfish",
+                "productIdToQuantify": "skin_goldfish",
+                "tab": "PREMIUM",
+                "title": "Goldfish",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "pig",
+                "originId": "1_skin_pig",
+                "productIdToQuantify": "skin_pig",
+                "tab": "PREMIUM",
+                "title": "Piggie",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Blueberry_Face",
+                "originId": "1_skin_blueberry",
+                "productIdToQuantify": "skin_blueberry",
+                "tab": "PREMIUM",
+                "title": "Blueberry",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Bomb",
+                "originId": "1_skin_bomb",
+                "productIdToQuantify": "skin_bomb",
+                "tab": "PREMIUM",
+                "title": "Bomb",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Bowling",
+                "originId": "1_skin_bowling",
+                "productIdToQuantify": "skin_bowling",
+                "tab": "PREMIUM",
+                "title": "Bowling",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Candy",
+                "originId": "1_skin_candy",
+                "productIdToQuantify": "skin_candy",
+                "tab": "PREMIUM",
+                "title": "Candy",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Frog",
+                "originId": "1_skin_frog",
+                "productIdToQuantify": "skin_frog",
+                "tab": "PREMIUM",
+                "title": "Frog",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Hamburguer",
+                "originId": "1_skin_hamburguer",
+                "productIdToQuantify": "skin_hamburguer",
+                "tab": "PREMIUM",
+                "title": "Hamburger",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Nose",
+                "originId": "1_skin_nose",
+                "productIdToQuantify": "skin_nose",
+                "tab": "PREMIUM",
+                "title": "Nose",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Seal",
+                "originId": "1_skin_seal",
+                "productIdToQuantify": "skin_seal",
+                "tab": "PREMIUM",
+                "title": "Seal",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Panda",
+                "originId": "1_skin_panda",
+                "productIdToQuantify": "skin_panda",
+                "tab": "PREMIUM",
+                "title": "Panda",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Pizza",
+                "originId": "1_skin_pizza",
+                "productIdToQuantify": "skin_pizza",
+                "tab": "PREMIUM",
+                "title": "Pizza",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Snowman",
+                "originId": "1_skin_snowman",
+                "productIdToQuantify": "skin_snowman",
+                "tab": "PREMIUM",
+                "title": "Snowman",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Sun",
+                "originId": "1_skin_sun",
+                "productIdToQuantify": "skin_sun",
+                "tab": "PREMIUM",
+                "title": "Sun",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Baseball",
+                "originId": "1_skin_baseball",
+                "productIdToQuantify": "skin_baseball",
+                "tab": "PREMIUM",
+                "title": "Baseball",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Basketball",
+                "originId": "1_skin_basketball",
+                "productIdToQuantify": "skin_basketball",
+                "tab": "PREMIUM",
+                "title": "Basketball",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Bug",
+                "originId": "1_skin_bug",
+                "productIdToQuantify": "skin_bug",
+                "tab": "PREMIUM",
+                "title": "Bug",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Cloud",
+                "originId": "1_skin_cloud",
+                "productIdToQuantify": "skin_cloud",
+                "tab": "PREMIUM",
+                "title": "Cloud",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Muu",
+                "originId": "1_skin_muu",
+                "productIdToQuantify": "skin_muu",
+                "tab": "PREMIUM",
+                "title": "Moo",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Tomato_Face",
+                "originId": "1_skin_tomatoface",
+                "productIdToQuantify": "skin_tomatoface",
+                "tab": "PREMIUM",
+                "title": "Tomato",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Mushroom",
+                "originId": "1_skin_mushroom",
+                "productIdToQuantify": "skin_mushroom",
+                "tab": "PREMIUM",
+                "title": "Mushroom",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Donuts",
+                "originId": "1_skin_donuts",
+                "productIdToQuantify": "skin_donuts",
+                "tab": "PREMIUM",
+                "title": "Donuts",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Terrible",
+                "originId": "1_skin_terrible",
+                "productIdToQuantify": "skin_terrible",
+                "tab": "PREMIUM",
+                "title": "Terrible",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "ghost",
+                "originId": "1_skin_ghost",
+                "productIdToQuantify": "skin_ghost",
+                "tab": "PREMIUM",
+                "title": "Ghost",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Apple_Face",
+                "originId": "1_skin_appleface",
+                "productIdToQuantify": "skin_appleface",
+                "tab": "PREMIUM",
+                "title": "Apple Face",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Turtle",
+                "originId": "1_skin_turtle",
+                "productIdToQuantify": "skin_turtle",
+                "tab": "PREMIUM",
+                "title": "Turtle",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "BroFist",
+                "originId": "1_skin_brofist",
+                "productIdToQuantify": "skin_brofist",
+                "tab": "PREMIUM",
+                "title": "BroFist",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Dog",
+                "originId": "1_skin_dog",
+                "productIdToQuantify": "skin_dog",
+                "tab": "PREMIUM",
+                "title": "Puppy",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "FootPrint",
+                "originId": "1_skin_footprint",
+                "productIdToQuantify": "skin_footprint",
+                "tab": "PREMIUM",
+                "title": "Footprint",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Pineapple_Face",
+                "originId": "1_skin_pineappleface",
+                "productIdToQuantify": "skin_pineappleface",
+                "tab": "PREMIUM",
+                "title": "Pineapple",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Zebra_Pattern",
+                "originId": "1_skin_zebrapattern",
+                "productIdToQuantify": "skin_zebrapattern",
+                "tab": "PREMIUM",
+                "title": "Zebra",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "toon",
+                "originId": "1_skin_toon",
+                "productIdToQuantify": "skin_toon",
+                "tab": "PREMIUM",
+                "title": "Toon",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Octopus",
+                "originId": "1_skin_octopus",
+                "productIdToQuantify": "skin_octopus",
+                "tab": "PREMIUM",
+                "title": "Octopus",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Radar",
+                "originId": "1_skin_radar",
+                "productIdToQuantify": "skin_radar",
+                "tab": "PREMIUM",
+                "title": "Radar",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Eye",
+                "originId": "1_skin_eye",
+                "productIdToQuantify": "skin_eye",
+                "tab": "PREMIUM",
+                "title": "Eye",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Owl",
+                "originId": "1_skin_owl",
+                "productIdToQuantify": "skin_owl",
+                "tab": "PREMIUM",
+                "title": "Owl",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Virus",
+                "originId": "1_skin_virus",
+                "productIdToQuantify": "skin_virus",
+                "tab": "PREMIUM",
+                "title": "Virus",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "smile",
+                "originId": "1_skin_smile",
+                "productIdToQuantify": "skin_smile",
+                "tab": "PREMIUM",
+                "title": "Smile",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Army",
+                "originId": "1_skin_army",
+                "productIdToQuantify": "skin_army",
+                "tab": "PREMIUM",
+                "title": "Army",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Cat",
+                "originId": "1_skin_cat",
+                "productIdToQuantify": "skin_cat",
+                "tab": "PREMIUM",
+                "title": "Cat",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Nuclear",
+                "originId": "1_skin_nuclear",
+                "productIdToQuantify": "skin_nuclear",
+                "tab": "PREMIUM",
+                "title": "Nuclear",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Toxic",
+                "originId": "1_skin_toxic",
+                "productIdToQuantify": "skin_toxic",
+                "tab": "PREMIUM",
+                "title": "Toxic",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Doggie",
+                "originId": "1_skin_doggie",
+                "productIdToQuantify": "skin_doggie",
+                "tab": "PREMIUM",
+                "title": "Dog",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "face",
+                "originId": "1_skin_face",
+                "productIdToQuantify": "skin_face",
+                "tab": "PREMIUM",
+                "title": "Sad",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Willie",
+                "originId": "1_skin_willie",
+                "productIdToQuantify": "skin_willie",
+                "tab": "PREMIUM",
+                "title": "Facepalm",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Luchador",
+                "originId": "1_skin_luchador",
+                "productIdToQuantify": "skin_luchador",
+                "tab": "PREMIUM",
+                "title": "Luchador",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "zombie",
+                "originId": "1_skin_zombie",
+                "productIdToQuantify": "skin_zombie",
+                "tab": "PREMIUM",
+                "title": "Zombie",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Bite",
+                "originId": "1_skin_bite",
+                "productIdToQuantify": "skin_bite",
+                "tab": "PREMIUM",
+                "title": "Bite",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Crazy",
+                "originId": "1_skin_crazy",
+                "productIdToQuantify": "skin_crazy",
+                "tab": "PREMIUM",
+                "title": "Crazy",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Hockey",
+                "originId": "1_skin_hockey",
+                "productIdToQuantify": "skin_hockey",
+                "tab": "PREMIUM",
+                "title": "Hockey",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Jar_Brain",
+                "originId": "1_skin_jarbrain",
+                "productIdToQuantify": "skin_jarbrain",
+                "tab": "PREMIUM",
+                "title": "Brain",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Evil",
+                "originId": "1_skin_evil",
+                "productIdToQuantify": "skin_evil",
+                "tab": "PREMIUM",
+                "title": "Evil",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Pirate",
+                "originId": "1_skin_pirate",
+                "productIdToQuantify": "skin_pirate",
+                "tab": "PREMIUM",
+                "title": "Pirate",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "evil_eye",
+                "originId": "1_skin_evileye",
+                "productIdToQuantify": "skin_evileye",
+                "tab": "PREMIUM",
+                "title": "Evil Eye",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Halloween",
+                "originId": "1_skin_halloween",
+                "productIdToQuantify": "skin_halloween",
+                "tab": "PREMIUM",
+                "title": "Halloween",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Monster",
+                "originId": "1_skin_monster",
+                "productIdToQuantify": "skin_monster",
+                "tab": "PREMIUM",
+                "title": "Monster",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Scarecrow",
+                "originId": "1_skin_scarecrow",
+                "productIdToQuantify": "skin_scarecrow",
+                "tab": "PREMIUM",
+                "title": "Scarecrow",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Spy",
+                "originId": "1_skin_spy",
+                "productIdToQuantify": "skin_spy",
+                "tab": "PREMIUM",
+                "title": "Spy",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Fly",
+                "originId": "levelUpRewardA",
+                "productIdToQuantify": "skin_fly",
+                "tab": "VETERAN",
+                "title": "Fly",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Spider",
+                "originId": "levelUpRewardB",
+                "productIdToQuantify": "skin_spider",
+                "tab": "VETERAN",
+                "title": "Spider",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Wasp",
+                "originId": "levelUpRewardC",
+                "productIdToQuantify": "skin_wasp",
+                "tab": "VETERAN",
+                "title": "Wasp",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Lizard",
+                "originId": "levelUpRewardD",
+                "productIdToQuantify": "skin_lizard",
+                "tab": "VETERAN",
+                "title": "Lizard",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Bat",
+                "originId": "levelUpRewardE",
+                "productIdToQuantify": "skin_bat",
+                "tab": "VETERAN",
+                "title": "Bat",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Snake",
+                "originId": "levelUpRewardF",
+                "productIdToQuantify": "skin_snake",
+                "tab": "VETERAN",
+                "title": "Snake",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Fox",
+                "originId": "levelUpRewardG",
+                "productIdToQuantify": "skin_fox",
+                "tab": "VETERAN",
+                "title": "Fox",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Coyote",
+                "originId": "levelUpRewardH",
+                "productIdToQuantify": "skin_coyote",
+                "tab": "VETERAN",
+                "title": "Coyote",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Hunter",
+                "originId": "levelUpRewardI",
+                "productIdToQuantify": "skin_hunter",
+                "tab": "VETERAN",
+                "title": "Hunter",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Sumo",
+                "originId": "levelUpRewardJ",
+                "productIdToQuantify": "skin_sumo",
+                "tab": "VETERAN",
+                "title": "Sumo",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Bear",
+                "originId": "levelUpRewardK",
+                "productIdToQuantify": "skin_bear",
+                "tab": "VETERAN",
+                "title": "Bear",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Cougar",
+                "originId": "levelUpRewardL",
+                "productIdToQuantify": "skin_cougar",
+                "tab": "VETERAN",
+                "title": "Cougar",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Panther",
+                "originId": "levelUpRewardM",
+                "productIdToQuantify": "skin_panther",
+                "tab": "VETERAN",
+                "title": "Panther",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Lion",
+                "originId": "levelUpRewardN",
+                "productIdToQuantify": "skin_lion",
+                "tab": "VETERAN",
+                "title": "Lion",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Crocodile",
+                "originId": "levelUpRewardO",
+                "productIdToQuantify": "skin_crocodile",
+                "tab": "VETERAN",
+                "title": "Crocodile",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Shark",
+                "originId": "levelUpRewardP",
+                "productIdToQuantify": "skin_shark",
+                "tab": "VETERAN",
+                "title": "Shark",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Mammoth",
+                "originId": "levelUpRewardQ",
+                "productIdToQuantify": "skin_mammoth",
+                "tab": "VETERAN",
+                "title": "Mammoth",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Raptor",
+                "originId": "levelUpRewardR",
+                "productIdToQuantify": "skin_raptor",
+                "tab": "VETERAN",
+                "title": "Raptor",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "T-Rex",
+                "originId": "levelUpRewardS",
+                "productIdToQuantify": "skin_t_rex",
+                "tab": "VETERAN",
+                "title": "T-Rex",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "Kraken",
+                "originId": "levelUpRewardT",
+                "productIdToQuantify": "skin_kraken",
+                "tab": "VETERAN",
+                "title": "Kraken",
+                "type": "REWARD",
+                "visibility": "default"
+            },
+            {
+                "image": "GingerBreadMan",
+                "originId": "1_skin_gingerbread",
+                "productIdToQuantify": "skin_gingerbread",
+                "tab": "PREMIUM, XMAS",
+                "title": "Gingerbread",
+                "type": "SOFT",
+                "visibility": "promotional"
+            },
+            {
+                "image": "X-mas",
+                "originId": "1_skin_santa",
+                "productIdToQuantify": "skin_santa",
+                "tab": "PREMIUM, XMAS",
+                "title": "Santa",
+                "type": "SOFT",
+                "visibility": "promotional"
+            },
+            {
+                "image": "Evil Elf",
+                "originId": "1_skin_grinch",
+                "productIdToQuantify": "skin_grinch",
+                "tab": "PREMIUM, XMAS",
+                "title": "Evil Elf",
+                "type": "SOFT",
+                "visibility": "promotional"
+            },
+            {
+                "image": "CupCake",
+                "originId": "1_skin_cupcake",
+                "productIdToQuantify": "skin_cupcake",
+                "tab": "VALENTINE",
+                "title": "Cupcake",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "KissBoy",
+                "originId": "1_skin_kiss_boy",
+                "productIdToQuantify": "skin_kiss_boy",
+                "tab": "VALENTINE",
+                "title": "Boy Kiss",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "KissGirl",
+                "originId": "1_skin_kiss_girl",
+                "productIdToQuantify": "skin_kiss_girl",
+                "tab": "VALENTINE",
+                "title": "Girl Kiss",
+                "type": "SOFT",
+                "visibility": "default"
+            },
+            {
+                "image": "Cupid",
+                "originId": "1_skin_cupid",
+                "productIdToQuantify": "skin_cupid",
+                "tab": "VALENTINE",
+                "title": "Cupid",
+                "type": "SOFT",
+                "visibility": "default"
+            }
+        ],
+        "userSettings": [
+            {
+                "key": "skinUnequippedTag",
+                "value": "skin_empty"
+            },
+            {
+                "key": "defaultDarkTheme",
+                "value": "NO"
+            },
+            {
+                "key": "defaultShowArrow",
+                "value": "YES"
+            },
+            {
+                "key": "defaultShowMass",
+                "value": "NO"
+            },
+            {
+                "key": "defaultStopOnRelease",
+                "value": "NO"
+            },
+            {
+                "key": "defaultDirectionOnTouch",
+                "value": "YES"
+            },
+            {
+                "key": "defaultShowNotifications",
+                "value": "YES"
+            },
+            {
+                "key": "defaultShowPlayerLevel",
+                "value": "NO"
+            },
+            {
+                "key": "defaultControlType",
+                "value": "BUTTON_POSITION_RIGHT"
+            },
+            {
+                "key": "maxNicknameLen",
+                "value": 15
+            }
+        ],
+        "walletBonuses": [
+            {
+                "bonusId": "levelUpReward",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "newAccount",
+                "bonusProductId": "coin",
+                "bonusQty": 100,
+                "productUpdateOrigin": "new_account"
+            },
+            {
+                "bonusId": "newAccount",
+                "bonusProductId": "skin_empty",
+                "bonusQty": 1,
+                "productUpdateOrigin": "new_account"
+            },
+            {
+                "bonusId": "hourlyBonus",
+                "bonusProductId": "coin",
+                "bonusQty": 20,
+                "productUpdateOrigin": "hourly_bonus"
+            },
+            {
+                "bonusId": "genericVideoAdReward",
+                "bonusProductId": "coin",
+                "bonusQty": 10,
+                "productUpdateOrigin": "reward_platform"
+            },
+            {
+                "bonusId": "levelUpRewardA",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardA",
+                "bonusProductId": "skin_fly",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardB",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardB",
+                "bonusProductId": "skin_spider",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardC",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardC",
+                "bonusProductId": "skin_wasp",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardD",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardD",
+                "bonusProductId": "skin_lizard",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardE",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardE",
+                "bonusProductId": "skin_bat",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardF",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardF",
+                "bonusProductId": "skin_snake",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardG",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardG",
+                "bonusProductId": "skin_fox",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardH",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardH",
+                "bonusProductId": "skin_coyote",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardI",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardI",
+                "bonusProductId": "skin_hunter",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardJ",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardJ",
+                "bonusProductId": "skin_sumo",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardK",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardK",
+                "bonusProductId": "skin_bear",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardL",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardL",
+                "bonusProductId": "skin_cougar",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardM",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardM",
+                "bonusProductId": "skin_panther",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardN",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardN",
+                "bonusProductId": "skin_lion",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardO",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardO",
+                "bonusProductId": "skin_crocodile",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardP",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardP",
+                "bonusProductId": "skin_shark",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardQ",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardQ",
+                "bonusProductId": "skin_mammoth",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardR",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardR",
+                "bonusProductId": "skin_raptor",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardS",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardS",
+                "bonusProductId": "skin_t_rex",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardT",
+                "bonusProductId": "coin",
+                "bonusQty": 50,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "levelUpRewardT",
+                "bonusProductId": "skin_kraken",
+                "bonusQty": 1,
+                "productUpdateOrigin": "xp_level_up"
+            },
+            {
+                "bonusId": "webIncentive",
+                "bonusProductId": "coin",
+                "bonusQty": 100,
+                "productUpdateOrigin": "undefined"
+            },
+            {
+                "bonusId": "webIncentive",
+                "bonusProductId": "mass_boost_3x_1h",
+                "bonusQty": 1,
+                "productUpdateOrigin": "undefined"
+            },
+            {
+                "bonusId": "softUpgrade",
+                "bonusProductId": "mass_boost_2x_1h",
+                "bonusQty": 1,
+                "productUpdateOrigin": "undefined"
+            }
+        ],
+        "walletInappPurchases": [
+            {
+                "bundleId": "125000_coins",
+                "id": "com.miniclip.agar.io.coins_125000",
+                "localizedDescription": "purchase_description_125000_coins",
+                "localizedName": "purchase_name_125000_coins",
+                "priceTier": 60
+            },
+            {
+                "bundleId": "50000_coins",
+                "id": "com.miniclip.agar.io.coins_50000",
+                "localizedDescription": "purchase_description_50000_coins",
+                "localizedName": "purchase_name_50000_coins",
+                "priceTier": 50
+            },
+            {
+                "bundleId": "16000_coins",
+                "id": "com.miniclip.agar.io.coins_16000",
+                "localizedDescription": "purchase_description_16000_coins",
+                "localizedName": "purchase_name_16000_coins",
+                "priceTier": 20
+            },
+            {
+                "bundleId": "7000_coins",
+                "id": "com.miniclip.agar.io.coins_7000",
+                "localizedDescription": "purchase_description_7000_coins",
+                "localizedName": "purchase_name_7000_coins",
+                "priceTier": 10
+            },
+            {
+                "bundleId": "3250_coins",
+                "id": "com.miniclip.agar.io.coins_3250",
+                "localizedDescription": "purchase_description_3250_coins",
+                "localizedName": "purchase_name_3250_coins",
+                "priceTier": 5
+            },
+            {
+                "bundleId": "1250_coins",
+                "id": "com.miniclip.agar.io.coins_1250",
+                "localizedDescription": "purchase_description_1250_coins",
+                "localizedName": "purchase_name_1250_coins",
+                "priceTier": 2
+            },
+            {
+                "bundleId": "1250_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_1250",
+                "localizedDescription": "purchase_description_promo1coins_1250",
+                "localizedName": "purchase_name_promo1coins_1250",
+                "priceTier": 2
+            },
+            {
+                "bundleId": "3250_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_3250",
+                "localizedDescription": "purchase_description_promo1coins_3250",
+                "localizedName": "purchase_name_promo1coins_3250",
+                "priceTier": 5
+            },
+            {
+                "bundleId": "7000_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_7000",
+                "localizedDescription": "purchase_description_promo1coins_7000",
+                "localizedName": "purchase_name_promo1coins_7000",
+                "priceTier": 10
+            },
+            {
+                "bundleId": "16000_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_16000",
+                "localizedDescription": "purchase_description_promo1coins_16000",
+                "localizedName": "purchase_name_promo1coins_16000",
+                "priceTier": 20
+            },
+            {
+                "bundleId": "50000_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_50000",
+                "localizedDescription": "purchase_description_promo1coins_50000",
+                "localizedName": "purchase_name_promo1coins_50000",
+                "priceTier": 50
+            },
+            {
+                "bundleId": "125000_coins_promo1",
+                "id": "com.miniclip.agar.io.promo1coins_125000",
+                "localizedDescription": "purchase_description_promo1coins_125000",
+                "localizedName": "purchase_name_promo1coins_125000",
+                "priceTier": 60
+            },
+            {
+                "bundleId": "1250_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_1250",
+                "localizedDescription": "purchase_description_promo2coins_1250",
+                "localizedName": "purchase_name_promo2coins_1250",
+                "priceTier": 2
+            },
+            {
+                "bundleId": "3250_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_3250",
+                "localizedDescription": "purchase_description_promo2coins_3250",
+                "localizedName": "purchase_name_promo2coins_3250",
+                "priceTier": 5
+            },
+            {
+                "bundleId": "7000_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_7000",
+                "localizedDescription": "purchase_description_promo2coins_7000",
+                "localizedName": "purchase_name_promo2coins_7000",
+                "priceTier": 10
+            },
+            {
+                "bundleId": "16000_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_16000",
+                "localizedDescription": "purchase_description_promo2coins_16000",
+                "localizedName": "purchase_name_promo2coins_16000",
+                "priceTier": 20
+            },
+            {
+                "bundleId": "50000_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_50000",
+                "localizedDescription": "purchase_description_promo2coins_50000",
+                "localizedName": "purchase_name_promo2coins_50000",
+                "priceTier": 50
+            },
+            {
+                "bundleId": "125000_coins_promo2",
+                "id": "com.miniclip.agar.io.promo2coins_125000",
+                "localizedDescription": "purchase_description_promo2coins_125000",
+                "localizedName": "purchase_name_promo2coins_125000",
+                "priceTier": 60
+            },
+            {
+                "bundleId": "starter_pack",
+                "id": "com.miniclip.agar.io.starterpack",
+                "localizedDescription": "purchase_description_starterpack",
+                "localizedName": "purchase_name_starterpack",
+                "priceTier": 2
+            },
+            {
+                "bundleId": "promotion_pack_1",
+                "id": "com.miniclip.agar.io.promotionpack1",
+                "localizedDescription": "purchase_description_promotionpack1",
+                "localizedName": "purchase_name_promotionpack1",
+                "priceTier": 20
+            },
+            {
+                "bundleId": "promotion_pack_2",
+                "id": "com.miniclip.agar.io.promotionpack2",
+                "localizedDescription": "purchase_description_promotionpack2",
+                "localizedName": "purchase_name_promotionpack2",
+                "priceTier": 10
+            },
+            {
+                "bundleId": "16000_coins_promo_after_inapp",
+                "id": "com.miniclip.agar.io.coins_16000promo",
+                "localizedDescription": "purchase_description_coins_16000promo",
+                "localizedName": "purchase_name_coins_16000promo",
+                "priceTier": 5
+            }
+        ],
+        "walletProductBundles": [
+            {
+                "id": "125000_coins",
+                "productId": "coin",
+                "quantity": 125000
+            },
+            {
+                "id": "50000_coins",
+                "productId": "coin",
+                "quantity": 50000
+            },
+            {
+                "id": "16000_coins",
+                "productId": "coin",
+                "quantity": 16000
+            },
+            {
+                "id": "7000_coins",
+                "productId": "coin",
+                "quantity": 7000
+            },
+            {
+                "id": "3250_coins",
+                "productId": "coin",
+                "quantity": 3250
+            },
+            {
+                "id": "1250_coins",
+                "productId": "coin",
+                "quantity": 1250
+            },
+            {
+                "id": "125000_coins_promo1",
+                "productId": "coin",
+                "quantity": 250000
+            },
+            {
+                "id": "50000_coins_promo1",
+                "productId": "coin",
+                "quantity": 100000
+            },
+            {
+                "id": "16000_coins_promo1",
+                "productId": "coin",
+                "quantity": 32000
+            },
+            {
+                "id": "7000_coins_promo1",
+                "productId": "coin",
+                "quantity": 14000
+            },
+            {
+                "id": "3250_coins_promo1",
+                "productId": "coin",
+                "quantity": 6500
+            },
+            {
+                "id": "1250_coins_promo1",
+                "productId": "coin",
+                "quantity": 2500
+            },
+            {
+                "id": "125000_coins_promo2",
+                "productId": "coin",
+                "quantity": 375000
+            },
+            {
+                "id": "50000_coins_promo2",
+                "productId": "coin",
+                "quantity": 150000
+            },
+            {
+                "id": "16000_coins_promo2",
+                "productId": "coin",
+                "quantity": 48000
+            },
+            {
+                "id": "7000_coins_promo2",
+                "productId": "coin",
+                "quantity": 21000
+            },
+            {
+                "id": "3250_coins_promo2",
+                "productId": "coin",
+                "quantity": 9750
+            },
+            {
+                "id": "1250_coins_promo2",
+                "productId": "coin",
+                "quantity": 3750
+            },
+            {
+                "id": "16000_coins_promo_after_inapp",
+                "productId": "coin",
+                "quantity": 16000
+            },
+            {
+                "id": "1_xp_boost_2x_1h",
+                "productId": "xp_boost_2x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "1_xp_boost_2x_24h",
+                "productId": "xp_boost_2x_24h",
+                "quantity": 1
+            },
+            {
+                "id": "1_xp_boost_3x_1h",
+                "productId": "xp_boost_3x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "1_xp_boost_3x_24h",
+                "productId": "xp_boost_3x_24h",
+                "quantity": 1
+            },
+            {
+                "id": "1_mass_boost_2x_1h",
+                "productId": "mass_boost_2x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "1_mass_boost_2x_24h",
+                "productId": "mass_boost_2x_24h",
+                "quantity": 1
+            },
+            {
+                "id": "1_mass_boost_3x_1h",
+                "productId": "mass_boost_3x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "1_mass_boost_3x_24h",
+                "productId": "mass_boost_3x_24h",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_banana",
+                "productId": "skin_banana",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_cookie",
+                "productId": "skin_cookie",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_jupiter",
+                "productId": "skin_jupiter",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_birdie",
+                "productId": "skin_birdie",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_mercury",
+                "productId": "skin_mercury",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_apple",
+                "productId": "skin_apple",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_good",
+                "productId": "skin_good",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_neptune",
+                "productId": "skin_neptune",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_blackhole",
+                "productId": "skin_blackhole",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_uranus",
+                "productId": "skin_uranus",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_starball",
+                "productId": "skin_starball",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_target",
+                "productId": "skin_target",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_galaxy",
+                "productId": "skin_galaxy",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_venus",
+                "productId": "skin_venus",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_breakfast",
+                "productId": "skin_breakfast",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_saturn",
+                "productId": "skin_saturn",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_pluto",
+                "productId": "skin_pluto",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_tigerpattern",
+                "productId": "skin_tigerpattern",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_hotdog",
+                "productId": "skin_hotdog",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_heart",
+                "productId": "skin_heart",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_mouse",
+                "productId": "skin_mouse",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_wolf",
+                "productId": "skin_wolf",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_goldfish",
+                "productId": "skin_goldfish",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_pig",
+                "productId": "skin_pig",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_blueberry",
+                "productId": "skin_blueberry",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_bomb",
+                "productId": "skin_bomb",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_bowling",
+                "productId": "skin_bowling",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_candy",
+                "productId": "skin_candy",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_frog",
+                "productId": "skin_frog",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_hamburguer",
+                "productId": "skin_hamburguer",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_nose",
+                "productId": "skin_nose",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_seal",
+                "productId": "skin_seal",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_panda",
+                "productId": "skin_panda",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_pizza",
+                "productId": "skin_pizza",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_snowman",
+                "productId": "skin_snowman",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_sun",
+                "productId": "skin_sun",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_baseball",
+                "productId": "skin_baseball",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_basketball",
+                "productId": "skin_basketball",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_bug",
+                "productId": "skin_bug",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_cloud",
+                "productId": "skin_cloud",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_muu",
+                "productId": "skin_muu",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_tomatoface",
+                "productId": "skin_tomatoface",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_mushroom",
+                "productId": "skin_mushroom",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_donuts",
+                "productId": "skin_donuts",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_terrible",
+                "productId": "skin_terrible",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_ghost",
+                "productId": "skin_ghost",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_appleface",
+                "productId": "skin_appleface",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_turtle",
+                "productId": "skin_turtle",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_brofist",
+                "productId": "skin_brofist",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_dog",
+                "productId": "skin_dog",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_footprint",
+                "productId": "skin_footprint",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_pineappleface",
+                "productId": "skin_pineappleface",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_zebrapattern",
+                "productId": "skin_zebrapattern",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_toon",
+                "productId": "skin_toon",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_octopus",
+                "productId": "skin_octopus",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_radar",
+                "productId": "skin_radar",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_eye",
+                "productId": "skin_eye",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_owl",
+                "productId": "skin_owl",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_virus",
+                "productId": "skin_virus",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_smile",
+                "productId": "skin_smile",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_army",
+                "productId": "skin_army",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_cat",
+                "productId": "skin_cat",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_nuclear",
+                "productId": "skin_nuclear",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_toxic",
+                "productId": "skin_toxic",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_doggie",
+                "productId": "skin_doggie",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_face",
+                "productId": "skin_face",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_willie",
+                "productId": "skin_willie",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_luchador",
+                "productId": "skin_luchador",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_zombie",
+                "productId": "skin_zombie",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_bite",
+                "productId": "skin_bite",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_crazy",
+                "productId": "skin_crazy",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_hockey",
+                "productId": "skin_hockey",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_jarbrain",
+                "productId": "skin_jarbrain",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_evil",
+                "productId": "skin_evil",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_pirate",
+                "productId": "skin_pirate",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_evileye",
+                "productId": "skin_evileye",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_halloween",
+                "productId": "skin_halloween",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_monster",
+                "productId": "skin_monster",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_scarecrow",
+                "productId": "skin_scarecrow",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_spy",
+                "productId": "skin_spy",
+                "quantity": 1
+            },
+            {
+                "id": "starter_pack",
+                "productId": "coin",
+                "quantity": 7000
+            },
+            {
+                "id": "starter_pack",
+                "productId": "xp_boost_2x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "starter_pack",
+                "productId": "mass_boost_2x_1h",
+                "quantity": 1
+            },
+            {
+                "id": "promotion_pack_1",
+                "productId": "coin",
+                "quantity": 50000
+            },
+            {
+                "id": "promotion_pack_1",
+                "productId": "skin_santa",
+                "quantity": 1
+            },
+            {
+                "id": "promotion_pack_2",
+                "productId": "coin",
+                "quantity": 16000
+            },
+            {
+                "id": "promotion_pack_2",
+                "productId": "skin_santa",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_gingerbread",
+                "productId": "skin_gingerbread",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_santa",
+                "productId": "skin_santa",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_grinch",
+                "productId": "skin_grinch",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_cupcake",
+                "productId": "skin_cupcake",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_kiss_boy",
+                "productId": "skin_kiss_boy",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_kiss_girl",
+                "productId": "skin_kiss_girl",
+                "quantity": 1
+            },
+            {
+                "id": "1_skin_cupid",
+                "productId": "skin_cupid",
+                "quantity": 1
+            }
+        ],
+        "walletProducts": [
+            {
+                "consumable": "YES",
+                "id": "coin",
+                "localizedName": "product_name_coin",
+                "type": "currency"
+            },
+            {
+                "consumable": "YES",
+                "id": "xp_boost_2x_1h",
+                "localizedName": "product_name_xp_boost_2x_1h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "xp_boost_2x_24h",
+                "localizedName": "product_name_xp_boost_2x_24h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "xp_boost_3x_1h",
+                "localizedName": "product_name_xp_boost_3x_1h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "xp_boost_3x_24h",
+                "localizedName": "product_name_xp_boost_3x_24h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "mass_boost_2x_1h",
+                "localizedName": "product_name_mass_boost_2x_1h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "mass_boost_2x_24h",
+                "localizedName": "product_name_mass_boost_2x_24h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "mass_boost_3x_1h",
+                "localizedName": "product_name_mass_boost_3x_1h",
+                "type": "boost"
+            },
+            {
+                "consumable": "YES",
+                "id": "mass_boost_3x_24h",
+                "localizedName": "product_name_mass_boost_3x_24h",
+                "type": "boost"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_empty",
+                "localizedName": "product_name_skin_empty",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_banana",
+                "localizedName": "product_name_skin_banana",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cookie",
+                "localizedName": "product_name_skin_cookie",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_jupiter",
+                "localizedName": "product_name_skin_jupiter",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_birdie",
+                "localizedName": "product_name_skin_birdie",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_mercury",
+                "localizedName": "product_name_skin_mercury",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_apple",
+                "localizedName": "product_name_skin_apple",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_good",
+                "localizedName": "product_name_skin_good",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_neptune",
+                "localizedName": "product_name_skin_neptune",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_blackhole",
+                "localizedName": "product_name_skin_blackhole",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_uranus",
+                "localizedName": "product_name_skin_uranus",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_starball",
+                "localizedName": "product_name_skin_starball",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_target",
+                "localizedName": "product_name_skin_target",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_galaxy",
+                "localizedName": "product_name_skin_galaxy",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_venus",
+                "localizedName": "product_name_skin_venus",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_breakfast",
+                "localizedName": "product_name_skin_breakfast",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_saturn",
+                "localizedName": "product_name_skin_saturn",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_pluto",
+                "localizedName": "product_name_skin_pluto",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_tigerpattern",
+                "localizedName": "product_name_skin_tigerpattern",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_hotdog",
+                "localizedName": "product_name_skin_hotdog",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_heart",
+                "localizedName": "product_name_skin_heart",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_mouse",
+                "localizedName": "product_name_skin_mouse",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_wolf",
+                "localizedName": "product_name_skin_wolf",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_goldfish",
+                "localizedName": "product_name_skin_goldfish",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_pig",
+                "localizedName": "product_name_skin_pig",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_blueberry",
+                "localizedName": "product_name_skin_blueberry",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bomb",
+                "localizedName": "product_name_skin_bomb",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bowling",
+                "localizedName": "product_name_skin_bowling",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_candy",
+                "localizedName": "product_name_skin_candy",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_frog",
+                "localizedName": "product_name_skin_frog",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_hamburguer",
+                "localizedName": "product_name_skin_hamburguer",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_nose",
+                "localizedName": "product_name_skin_nose",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_seal",
+                "localizedName": "product_name_skin_seal",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_panda",
+                "localizedName": "product_name_skin_panda",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_pizza",
+                "localizedName": "product_name_skin_pizza",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_snowman",
+                "localizedName": "product_name_skin_snowman",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_sun",
+                "localizedName": "product_name_skin_sun",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_baseball",
+                "localizedName": "product_name_skin_baseball",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_basketball",
+                "localizedName": "product_name_skin_basketball",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bug",
+                "localizedName": "product_name_skin_bug",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cloud",
+                "localizedName": "product_name_skin_cloud",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_muu",
+                "localizedName": "product_name_skin_muu",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_tomatoface",
+                "localizedName": "product_name_skin_tomatoface",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_mushroom",
+                "localizedName": "product_name_skin_mushroom",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_donuts",
+                "localizedName": "product_name_skin_donuts",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_terrible",
+                "localizedName": "product_name_skin_terrible",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_ghost",
+                "localizedName": "product_name_skin_ghost",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_appleface",
+                "localizedName": "product_name_skin_appleface",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_turtle",
+                "localizedName": "product_name_skin_turtle",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_brofist",
+                "localizedName": "product_name_skin_brofist",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_dog",
+                "localizedName": "product_name_skin_dog",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_footprint",
+                "localizedName": "product_name_skin_footprint",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_pineappleface",
+                "localizedName": "product_name_skin_pineappleface",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_zebrapattern",
+                "localizedName": "product_name_skin_zebrapattern",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_toon",
+                "localizedName": "product_name_skin_toon",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_octopus",
+                "localizedName": "product_name_skin_octopus",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_radar",
+                "localizedName": "product_name_skin_radar",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_eye",
+                "localizedName": "product_name_skin_eye",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_owl",
+                "localizedName": "product_name_skin_owl",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_virus",
+                "localizedName": "product_name_skin_virus",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_smile",
+                "localizedName": "product_name_skin_smile",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_army",
+                "localizedName": "product_name_skin_army",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cat",
+                "localizedName": "product_name_skin_cat",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_nuclear",
+                "localizedName": "product_name_skin_nuclear",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_toxic",
+                "localizedName": "product_name_skin_toxic",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_doggie",
+                "localizedName": "product_name_skin_doggie",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_face",
+                "localizedName": "product_name_skin_face",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_willie",
+                "localizedName": "product_name_skin_willie",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_luchador",
+                "localizedName": "product_name_skin_luchador",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_zombie",
+                "localizedName": "product_name_skin_zombie",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bite",
+                "localizedName": "product_name_skin_bite",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_crazy",
+                "localizedName": "product_name_skin_crazy",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_hockey",
+                "localizedName": "product_name_skin_hockey",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_jarbrain",
+                "localizedName": "product_name_skin_jarbrain",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_evil",
+                "localizedName": "product_name_skin_evil",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_pirate",
+                "localizedName": "product_name_skin_pirate",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_evileye",
+                "localizedName": "product_name_skin_evileye",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_halloween",
+                "localizedName": "product_name_skin_halloween",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_monster",
+                "localizedName": "product_name_skin_monster",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_scarecrow",
+                "localizedName": "product_name_skin_scarecrow",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_spy",
+                "localizedName": "product_name_skin_spy",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_fly",
+                "localizedName": "product_name_skin_fly",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_spider",
+                "localizedName": "product_name_skin_spider",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_wasp",
+                "localizedName": "product_name_skin_wasp",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_lizard",
+                "localizedName": "product_name_skin_lizard",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bat",
+                "localizedName": "product_name_skin_bat",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_snake",
+                "localizedName": "product_name_skin_snake",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_fox",
+                "localizedName": "product_name_skin_fox",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_coyote",
+                "localizedName": "product_name_skin_coyote",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_hunter",
+                "localizedName": "product_name_skin_hunter",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_sumo",
+                "localizedName": "product_name_skin_sumo",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_bear",
+                "localizedName": "product_name_skin_bear",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cougar",
+                "localizedName": "product_name_skin_cougar",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_panther",
+                "localizedName": "product_name_skin_panther",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_lion",
+                "localizedName": "product_name_skin_lion",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_crocodile",
+                "localizedName": "product_name_skin_crocodile",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_shark",
+                "localizedName": "product_name_skin_shark",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_mammoth",
+                "localizedName": "product_name_skin_mammoth",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_raptor",
+                "localizedName": "product_name_skin_raptor",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_t_rex",
+                "localizedName": "product_name_skin_t_rex",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_kraken",
+                "localizedName": "product_name_skin_kraken",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_gingerbread",
+                "localizedName": "product_name_skin_gingerbread",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_santa",
+                "localizedName": "product_name_skin_santa",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_grinch",
+                "localizedName": "product_name_skin_grinch",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cupcake",
+                "localizedName": "product_name_skin_cupcake",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_kiss_boy",
+                "localizedName": "product_name_skin_kiss_boy",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_kiss_girl",
+                "localizedName": "product_name_skin_kiss_girl",
+                "type": "skin"
+            },
+            {
+                "consumable": "NO",
+                "id": "skin_cupid",
+                "localizedName": "product_name_skin_cupid",
+                "type": "skin"
+            }
+        ],
+        "walletSoftPurchases": [
+            {
+                "bundleId": "1_xp_boost_2x_1h",
+                "currencyAmount": 290,
+                "currencyProductId": "coin",
+                "id": "1_xp_boost_2x_1h"
+            },
+            {
+                "bundleId": "1_xp_boost_2x_24h",
+                "currencyAmount": 790,
+                "currencyProductId": "coin",
+                "id": "1_xp_boost_2x_24h"
+            },
+            {
+                "bundleId": "1_xp_boost_3x_1h",
+                "currencyAmount": 490,
+                "currencyProductId": "coin",
+                "id": "1_xp_boost_3x_1h"
+            },
+            {
+                "bundleId": "1_xp_boost_3x_24h",
+                "currencyAmount": 990,
+                "currencyProductId": "coin",
+                "id": "1_xp_boost_3x_24h"
+            },
+            {
+                "bundleId": "1_mass_boost_2x_1h",
+                "currencyAmount": 290,
+                "currencyProductId": "coin",
+                "id": "1_mass_boost_2x_1h"
+            },
+            {
+                "bundleId": "1_mass_boost_2x_24h",
+                "currencyAmount": 790,
+                "currencyProductId": "coin",
+                "id": "1_mass_boost_2x_24h"
+            },
+            {
+                "bundleId": "1_mass_boost_3x_1h",
+                "currencyAmount": 490,
+                "currencyProductId": "coin",
+                "id": "1_mass_boost_3x_1h"
+            },
+            {
+                "bundleId": "1_mass_boost_3x_24h",
+                "currencyAmount": 990,
+                "currencyProductId": "coin",
+                "id": "1_mass_boost_3x_24h"
+            },
+            {
+                "bundleId": "1_skin_banana",
+                "currencyAmount": 290,
+                "currencyProductId": "coin",
+                "id": "1_skin_banana"
+            },
+            {
+                "bundleId": "1_skin_cookie",
+                "currencyAmount": 890,
+                "currencyProductId": "coin",
+                "id": "1_skin_cookie"
+            },
+            {
+                "bundleId": "1_skin_jupiter",
+                "currencyAmount": 900,
+                "currencyProductId": "coin",
+                "id": "1_skin_jupiter"
+            },
+            {
+                "bundleId": "1_skin_birdie",
+                "currencyAmount": 540,
+                "currencyProductId": "coin",
+                "id": "1_skin_birdie"
+            },
+            {
+                "bundleId": "1_skin_mercury",
+                "currencyAmount": 270,
+                "currencyProductId": "coin",
+                "id": "1_skin_mercury"
+            },
+            {
+                "bundleId": "1_skin_apple",
+                "currencyAmount": 590,
+                "currencyProductId": "coin",
+                "id": "1_skin_apple"
+            },
+            {
+                "bundleId": "1_skin_good",
+                "currencyAmount": 980,
+                "currencyProductId": "coin",
+                "id": "1_skin_good"
+            },
+            {
+                "bundleId": "1_skin_neptune",
+                "currencyAmount": 990,
+                "currencyProductId": "coin",
+                "id": "1_skin_neptune"
+            },
+            {
+                "bundleId": "1_skin_blackhole",
+                "currencyAmount": 1190,
+                "currencyProductId": "coin",
+                "id": "1_skin_blackhole"
+            },
+            {
+                "bundleId": "1_skin_uranus",
+                "currencyAmount": 1250,
+                "currencyProductId": "coin",
+                "id": "1_skin_uranus"
+            },
+            {
+                "bundleId": "1_skin_starball",
+                "currencyAmount": 1290,
+                "currencyProductId": "coin",
+                "id": "1_skin_starball"
+            },
+            {
+                "bundleId": "1_skin_target",
+                "currencyAmount": 1350,
+                "currencyProductId": "coin",
+                "id": "1_skin_target"
+            },
+            {
+                "bundleId": "1_skin_galaxy",
+                "currencyAmount": 1390,
+                "currencyProductId": "coin",
+                "id": "1_skin_galaxy"
+            },
+            {
+                "bundleId": "1_skin_venus",
+                "currencyAmount": 250,
+                "currencyProductId": "coin",
+                "id": "1_skin_venus"
+            },
+            {
+                "bundleId": "1_skin_breakfast",
+                "currencyAmount": 1450,
+                "currencyProductId": "coin",
+                "id": "1_skin_breakfast"
+            },
+            {
+                "bundleId": "1_skin_saturn",
+                "currencyAmount": 1470,
+                "currencyProductId": "coin",
+                "id": "1_skin_saturn"
+            },
+            {
+                "bundleId": "1_skin_pluto",
+                "currencyAmount": 1490,
+                "currencyProductId": "coin",
+                "id": "1_skin_pluto"
+            },
+            {
+                "bundleId": "1_skin_tigerpattern",
+                "currencyAmount": 650,
+                "currencyProductId": "coin",
+                "id": "1_skin_tigerpattern"
+            },
+            {
+                "bundleId": "1_skin_hotdog",
+                "currencyAmount": 1590,
+                "currencyProductId": "coin",
+                "id": "1_skin_hotdog"
+            },
+            {
+                "bundleId": "1_skin_heart",
+                "currencyAmount": 1690,
+                "currencyProductId": "coin",
+                "id": "1_skin_heart"
+            },
+            {
+                "bundleId": "1_skin_mouse",
+                "currencyAmount": 1750,
+                "currencyProductId": "coin",
+                "id": "1_skin_mouse"
+            },
+            {
+                "bundleId": "1_skin_wolf",
+                "currencyAmount": 1790,
+                "currencyProductId": "coin",
+                "id": "1_skin_wolf"
+            },
+            {
+                "bundleId": "1_skin_goldfish",
+                "currencyAmount": 1850,
+                "currencyProductId": "coin",
+                "id": "1_skin_goldfish"
+            },
+            {
+                "bundleId": "1_skin_pig",
+                "currencyAmount": 1950,
+                "currencyProductId": "coin",
+                "id": "1_skin_pig"
+            },
+            {
+                "bundleId": "1_skin_blueberry",
+                "currencyAmount": 2150,
+                "currencyProductId": "coin",
+                "id": "1_skin_blueberry"
+            },
+            {
+                "bundleId": "1_skin_bomb",
+                "currencyAmount": 2250,
+                "currencyProductId": "coin",
+                "id": "1_skin_bomb"
+            },
+            {
+                "bundleId": "1_skin_bowling",
+                "currencyAmount": 2290,
+                "currencyProductId": "coin",
+                "id": "1_skin_bowling"
+            },
+            {
+                "bundleId": "1_skin_candy",
+                "currencyAmount": 2350,
+                "currencyProductId": "coin",
+                "id": "1_skin_candy"
+            },
+            {
+                "bundleId": "1_skin_frog",
+                "currencyAmount": 2390,
+                "currencyProductId": "coin",
+                "id": "1_skin_frog"
+            },
+            {
+                "bundleId": "1_skin_hamburguer",
+                "currencyAmount": 2450,
+                "currencyProductId": "coin",
+                "id": "1_skin_hamburguer"
+            },
+            {
+                "bundleId": "1_skin_nose",
+                "currencyAmount": 2490,
+                "currencyProductId": "coin",
+                "id": "1_skin_nose"
+            },
+            {
+                "bundleId": "1_skin_seal",
+                "currencyAmount": 2550,
+                "currencyProductId": "coin",
+                "id": "1_skin_seal"
+            },
+            {
+                "bundleId": "1_skin_panda",
+                "currencyAmount": 2650,
+                "currencyProductId": "coin",
+                "id": "1_skin_panda"
+            },
+            {
+                "bundleId": "1_skin_pizza",
+                "currencyAmount": 2690,
+                "currencyProductId": "coin",
+                "id": "1_skin_pizza"
+            },
+            {
+                "bundleId": "1_skin_snowman",
+                "currencyAmount": 2750,
+                "currencyProductId": "coin",
+                "id": "1_skin_snowman"
+            },
+            {
+                "bundleId": "1_skin_sun",
+                "currencyAmount": 2850,
+                "currencyProductId": "coin",
+                "id": "1_skin_sun"
+            },
+            {
+                "bundleId": "1_skin_baseball",
+                "currencyAmount": 2890,
+                "currencyProductId": "coin",
+                "id": "1_skin_baseball"
+            },
+            {
+                "bundleId": "1_skin_basketball",
+                "currencyAmount": 2950,
+                "currencyProductId": "coin",
+                "id": "1_skin_basketball"
+            },
+            {
+                "bundleId": "1_skin_bug",
+                "currencyAmount": 3150,
+                "currencyProductId": "coin",
+                "id": "1_skin_bug"
+            },
+            {
+                "bundleId": "1_skin_cloud",
+                "currencyAmount": 3250,
+                "currencyProductId": "coin",
+                "id": "1_skin_cloud"
+            },
+            {
+                "bundleId": "1_skin_muu",
+                "currencyAmount": 3290,
+                "currencyProductId": "coin",
+                "id": "1_skin_muu"
+            },
+            {
+                "bundleId": "1_skin_tomatoface",
+                "currencyAmount": 3350,
+                "currencyProductId": "coin",
+                "id": "1_skin_tomatoface"
+            },
+            {
+                "bundleId": "1_skin_mushroom",
+                "currencyAmount": 3390,
+                "currencyProductId": "coin",
+                "id": "1_skin_mushroom"
+            },
+            {
+                "bundleId": "1_skin_donuts",
+                "currencyAmount": 3450,
+                "currencyProductId": "coin",
+                "id": "1_skin_donuts"
+            },
+            {
+                "bundleId": "1_skin_terrible",
+                "currencyAmount": 3490,
+                "currencyProductId": "coin",
+                "id": "1_skin_terrible"
+            },
+            {
+                "bundleId": "1_skin_ghost",
+                "currencyAmount": 3550,
+                "currencyProductId": "coin",
+                "id": "1_skin_ghost"
+            },
+            {
+                "bundleId": "1_skin_appleface",
+                "currencyAmount": 3590,
+                "currencyProductId": "coin",
+                "id": "1_skin_appleface"
+            },
+            {
+                "bundleId": "1_skin_turtle",
+                "currencyAmount": 3650,
+                "currencyProductId": "coin",
+                "id": "1_skin_turtle"
+            },
+            {
+                "bundleId": "1_skin_brofist",
+                "currencyAmount": 3750,
+                "currencyProductId": "coin",
+                "id": "1_skin_brofist"
+            },
+            {
+                "bundleId": "1_skin_dog",
+                "currencyAmount": 3890,
+                "currencyProductId": "coin",
+                "id": "1_skin_dog"
+            },
+            {
+                "bundleId": "1_skin_footprint",
+                "currencyAmount": 3950,
+                "currencyProductId": "coin",
+                "id": "1_skin_footprint"
+            },
+            {
+                "bundleId": "1_skin_pineappleface",
+                "currencyAmount": 4490,
+                "currencyProductId": "coin",
+                "id": "1_skin_pineappleface"
+            },
+            {
+                "bundleId": "1_skin_zebrapattern",
+                "currencyAmount": 4590,
+                "currencyProductId": "coin",
+                "id": "1_skin_zebrapattern"
+            },
+            {
+                "bundleId": "1_skin_toon",
+                "currencyAmount": 4650,
+                "currencyProductId": "coin",
+                "id": "1_skin_toon"
+            },
+            {
+                "bundleId": "1_skin_octopus",
+                "currencyAmount": 4790,
+                "currencyProductId": "coin",
+                "id": "1_skin_octopus"
+            },
+            {
+                "bundleId": "1_skin_radar",
+                "currencyAmount": 4950,
+                "currencyProductId": "coin",
+                "id": "1_skin_radar"
+            },
+            {
+                "bundleId": "1_skin_eye",
+                "currencyAmount": 5250,
+                "currencyProductId": "coin",
+                "id": "1_skin_eye"
+            },
+            {
+                "bundleId": "1_skin_owl",
+                "currencyAmount": 5490,
+                "currencyProductId": "coin",
+                "id": "1_skin_owl"
+            },
+            {
+                "bundleId": "1_skin_virus",
+                "currencyAmount": 5650,
+                "currencyProductId": "coin",
+                "id": "1_skin_virus"
+            },
+            {
+                "bundleId": "1_skin_smile",
+                "currencyAmount": 5850,
+                "currencyProductId": "coin",
+                "id": "1_skin_smile"
+            },
+            {
+                "bundleId": "1_skin_army",
+                "currencyAmount": 5990,
+                "currencyProductId": "coin",
+                "id": "1_skin_army"
+            },
+            {
+                "bundleId": "1_skin_cat",
+                "currencyAmount": 6250,
+                "currencyProductId": "coin",
+                "id": "1_skin_cat"
+            },
+            {
+                "bundleId": "1_skin_nuclear",
+                "currencyAmount": 6490,
+                "currencyProductId": "coin",
+                "id": "1_skin_nuclear"
+            },
+            {
+                "bundleId": "1_skin_toxic",
+                "currencyAmount": 6650,
+                "currencyProductId": "coin",
+                "id": "1_skin_toxic"
+            },
+            {
+                "bundleId": "1_skin_doggie",
+                "currencyAmount": 6850,
+                "currencyProductId": "coin",
+                "id": "1_skin_doggie"
+            },
+            {
+                "bundleId": "1_skin_face",
+                "currencyAmount": 6990,
+                "currencyProductId": "coin",
+                "id": "1_skin_face"
+            },
+            {
+                "bundleId": "1_skin_willie",
+                "currencyAmount": 7250,
+                "currencyProductId": "coin",
+                "id": "1_skin_willie"
+            },
+            {
+                "bundleId": "1_skin_luchador",
+                "currencyAmount": 7490,
+                "currencyProductId": "coin",
+                "id": "1_skin_luchador"
+            },
+            {
+                "bundleId": "1_skin_zombie",
+                "currencyAmount": 7650,
+                "currencyProductId": "coin",
+                "id": "1_skin_zombie"
+            },
+            {
+                "bundleId": "1_skin_bite",
+                "currencyAmount": 7850,
+                "currencyProductId": "coin",
+                "id": "1_skin_bite"
+            },
+            {
+                "bundleId": "1_skin_crazy",
+                "currencyAmount": 7990,
+                "currencyProductId": "coin",
+                "id": "1_skin_crazy"
+            },
+            {
+                "bundleId": "1_skin_hockey",
+                "currencyAmount": 8250,
+                "currencyProductId": "coin",
+                "id": "1_skin_hockey"
+            },
+            {
+                "bundleId": "1_skin_jarbrain",
+                "currencyAmount": 8490,
+                "currencyProductId": "coin",
+                "id": "1_skin_jarbrain"
+            },
+            {
+                "bundleId": "1_skin_evil",
+                "currencyAmount": 8650,
+                "currencyProductId": "coin",
+                "id": "1_skin_evil"
+            },
+            {
+                "bundleId": "1_skin_pirate",
+                "currencyAmount": 8850,
+                "currencyProductId": "coin",
+                "id": "1_skin_pirate"
+            },
+            {
+                "bundleId": "1_skin_evileye",
+                "currencyAmount": 9250,
+                "currencyProductId": "coin",
+                "id": "1_skin_evileye"
+            },
+            {
+                "bundleId": "1_skin_halloween",
+                "currencyAmount": 9490,
+                "currencyProductId": "coin",
+                "id": "1_skin_halloween"
+            },
+            {
+                "bundleId": "1_skin_monster",
+                "currencyAmount": 9650,
+                "currencyProductId": "coin",
+                "id": "1_skin_monster"
+            },
+            {
+                "bundleId": "1_skin_scarecrow",
+                "currencyAmount": 9850,
+                "currencyProductId": "coin",
+                "id": "1_skin_scarecrow"
+            },
+            {
+                "bundleId": "1_skin_spy",
+                "currencyAmount": 9999,
+                "currencyProductId": "coin",
+                "id": "1_skin_spy"
+            },
+            {
+                "bundleId": "1_skin_gingerbread",
+                "currencyAmount": 490,
+                "currencyProductId": "coin",
+                "id": "1_skin_gingerbread"
+            },
+            {
+                "bundleId": "1_skin_santa",
+                "currencyAmount": 3320,
+                "currencyProductId": "coin",
+                "id": "1_skin_santa"
+            },
+            {
+                "bundleId": "1_skin_grinch",
+                "currencyAmount": 4250,
+                "currencyProductId": "coin",
+                "id": "1_skin_grinch"
+            },
+            {
+                "bundleId": "1_skin_cupcake",
+                "currencyAmount": 490,
+                "currencyProductId": "coin",
+                "id": "1_skin_cupcake"
+            },
+            {
+                "bundleId": "1_skin_kiss_boy",
+                "currencyAmount": 2900,
+                "currencyProductId": "coin",
+                "id": "1_skin_kiss_boy"
+            },
+            {
+                "bundleId": "1_skin_kiss_girl",
+                "currencyAmount": 2900,
+                "currencyProductId": "coin",
+                "id": "1_skin_kiss_girl"
+            },
+            {
+                "bundleId": "1_skin_cupid",
+                "currencyAmount": 4900,
+                "currencyProductId": "coin",
+                "id": "1_skin_cupid"
+            }
+        ],
+        "xpList": [
+            {
+                "level": 1,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 50
+            },
+            {
+                "level": 2,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 125
+            },
+            {
+                "level": 3,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 250
+            },
+            {
+                "level": 4,
+                "levelUpBonusId": "levelUpRewardA",
+                "xpToNextLevel": 500
+            },
+            {
+                "level": 5,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 1000
+            },
+            {
+                "level": 6,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 1600
+            },
+            {
+                "level": 7,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 2300
+            },
+            {
+                "level": 8,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 3100
+            },
+            {
+                "level": 9,
+                "levelUpBonusId": "levelUpRewardB",
+                "xpToNextLevel": 4000
+            },
+            {
+                "level": 10,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 5000
+            },
+            {
+                "level": 11,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 6100
+            },
+            {
+                "level": 12,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 7300
+            },
+            {
+                "level": 13,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 8600
+            },
+            {
+                "level": 14,
+                "levelUpBonusId": "levelUpRewardC",
+                "xpToNextLevel": 10000
+            },
+            {
+                "level": 15,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 11500
+            },
+            {
+                "level": 16,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 13100
+            },
+            {
+                "level": 17,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 14800
+            },
+            {
+                "level": 18,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 16600
+            },
+            {
+                "level": 19,
+                "levelUpBonusId": "levelUpRewardD",
+                "xpToNextLevel": 18500
+            },
+            {
+                "level": 20,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 20500
+            },
+            {
+                "level": 21,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 22600
+            },
+            {
+                "level": 22,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 24800
+            },
+            {
+                "level": 23,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 27100
+            },
+            {
+                "level": 24,
+                "levelUpBonusId": "levelUpRewardE",
+                "xpToNextLevel": 29500
+            },
+            {
+                "level": 25,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 32000
+            },
+            {
+                "level": 26,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 34600
+            },
+            {
+                "level": 27,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 37300
+            },
+            {
+                "level": 28,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 40100
+            },
+            {
+                "level": 29,
+                "levelUpBonusId": "levelUpRewardF",
+                "xpToNextLevel": 43000
+            },
+            {
+                "level": 30,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 46000
+            },
+            {
+                "level": 31,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 49100
+            },
+            {
+                "level": 32,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 52300
+            },
+            {
+                "level": 33,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 55600
+            },
+            {
+                "level": 34,
+                "levelUpBonusId": "levelUpRewardG",
+                "xpToNextLevel": 59000
+            },
+            {
+                "level": 35,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 62500
+            },
+            {
+                "level": 36,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 66100
+            },
+            {
+                "level": 37,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 69800
+            },
+            {
+                "level": 38,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 73600
+            },
+            {
+                "level": 39,
+                "levelUpBonusId": "levelUpRewardH",
+                "xpToNextLevel": 77500
+            },
+            {
+                "level": 40,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 81500
+            },
+            {
+                "level": 41,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 85600
+            },
+            {
+                "level": 42,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 89800
+            },
+            {
+                "level": 43,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 94100
+            },
+            {
+                "level": 44,
+                "levelUpBonusId": "levelUpRewardI",
+                "xpToNextLevel": 98500
+            },
+            {
+                "level": 45,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 103000
+            },
+            {
+                "level": 46,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 107600
+            },
+            {
+                "level": 47,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 112300
+            },
+            {
+                "level": 48,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 117100
+            },
+            {
+                "level": 49,
+                "levelUpBonusId": "levelUpRewardJ",
+                "xpToNextLevel": 122000
+            },
+            {
+                "level": 50,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 127000
+            },
+            {
+                "level": 51,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 132100
+            },
+            {
+                "level": 52,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 137300
+            },
+            {
+                "level": 53,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 142600
+            },
+            {
+                "level": 54,
+                "levelUpBonusId": "levelUpRewardK",
+                "xpToNextLevel": 148000
+            },
+            {
+                "level": 55,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 153500
+            },
+            {
+                "level": 56,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 159100
+            },
+            {
+                "level": 57,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 164800
+            },
+            {
+                "level": 58,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 170600
+            },
+            {
+                "level": 59,
+                "levelUpBonusId": "levelUpRewardL",
+                "xpToNextLevel": 176500
+            },
+            {
+                "level": 60,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 182500
+            },
+            {
+                "level": 61,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 188600
+            },
+            {
+                "level": 62,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 194800
+            },
+            {
+                "level": 63,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 201100
+            },
+            {
+                "level": 64,
+                "levelUpBonusId": "levelUpRewardM",
+                "xpToNextLevel": 207500
+            },
+            {
+                "level": 65,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 214000
+            },
+            {
+                "level": 66,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 220600
+            },
+            {
+                "level": 67,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 227300
+            },
+            {
+                "level": 68,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 234100
+            },
+            {
+                "level": 69,
+                "levelUpBonusId": "levelUpRewardN",
+                "xpToNextLevel": 241000
+            },
+            {
+                "level": 70,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 248000
+            },
+            {
+                "level": 71,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 255100
+            },
+            {
+                "level": 72,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 262300
+            },
+            {
+                "level": 73,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 269600
+            },
+            {
+                "level": 74,
+                "levelUpBonusId": "levelUpRewardO",
+                "xpToNextLevel": 277000
+            },
+            {
+                "level": 75,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 284500
+            },
+            {
+                "level": 76,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 292100
+            },
+            {
+                "level": 77,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 299800
+            },
+            {
+                "level": 78,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 307600
+            },
+            {
+                "level": 79,
+                "levelUpBonusId": "levelUpRewardP",
+                "xpToNextLevel": 315500
+            },
+            {
+                "level": 80,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 323500
+            },
+            {
+                "level": 81,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 331600
+            },
+            {
+                "level": 82,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 339800
+            },
+            {
+                "level": 83,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 348100
+            },
+            {
+                "level": 84,
+                "levelUpBonusId": "levelUpRewardQ",
+                "xpToNextLevel": 356500
+            },
+            {
+                "level": 85,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 365000
+            },
+            {
+                "level": 86,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 373600
+            },
+            {
+                "level": 87,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 382300
+            },
+            {
+                "level": 88,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 391100
+            },
+            {
+                "level": 89,
+                "levelUpBonusId": "levelUpRewardR",
+                "xpToNextLevel": 400000
+            },
+            {
+                "level": 90,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 409000
+            },
+            {
+                "level": 91,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 418100
+            },
+            {
+                "level": 92,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 427300
+            },
+            {
+                "level": 93,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 436600
+            },
+            {
+                "level": 94,
+                "levelUpBonusId": "levelUpRewardS",
+                "xpToNextLevel": 446000
+            },
+            {
+                "level": 95,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 455500
+            },
+            {
+                "level": 96,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 465100
+            },
+            {
+                "level": 97,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 474800
+            },
+            {
+                "level": 98,
+                "levelUpBonusId": "levelUpReward",
+                "xpToNextLevel": 484600
+            },
+            {
+                "level": 99,
+                "levelUpBonusId": "levelUpRewardT",
+                "xpToNextLevel": 494500
+            }
+        ]
+    }
+}
