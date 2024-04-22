@@ -3,6 +3,23 @@
     to {  opacity: 100%;}
 }
 
+#center ul {
+    display: table;
+    margin: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#center ul li {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+    float: left;
+    margin: 2px;
+}
+
 #cat {
     width: 50%;
 }
